@@ -1,0 +1,1 @@
+# hackintosh-hasee-z7-i78172D2
