@@ -1,4 +1,4 @@
-BIOS此处摘录原作者文章,以及bios文件,以供参考
+# BIOS此处摘录原作者文章,以及bios文件,以供参考
 
 作者：诺小板的诺
 链接：https://www.zhihu.com/question/37007270/answer/141872424
@@ -31,8 +31,11 @@ SSD作为仓储盘使用，无法在上面引导系统。如果你本来就系�
 这一次执行step2.bat，开始刷入BIOS和EC。等待两分钟后刷新完成电脑会关闭。此时按电源键开机就可以进入新BIOS了。重新把启动模式改为UEFI即可使用NVME固态启动系统。
 
 改BIOS参考教程：
+
 [神舟战神Z7D2(P655SE)改BIOS强上NVME固态硬盘_笔记本吧_百度贴吧](https://tieba.baidu.com/p/4790179566)
+
 [【教程】自制解锁bios，加slic，改logo和添加序列号_准系统吧_百度贴吧](https://tieba.baidu.com/p/4936939406)
+
 [[Guide] How to get full NVMe support for all Systems with an AMI UEFI BIOS](https://winraid.level1techs.com/t/howto-get-full-nvme-support-for-all-systems-with-an-ami-uefi-bios/30901)
 
 如果你的主板和我不一样但又想NVME引导支持和设置解锁，可以参考以上教程。
@@ -47,4 +50,5 @@ Limit来设置。但是有朋友反映显卡还是有功耗墙，可是我这里
 20180810更新：
 本人的Z7因为涂过液态金属，某天拆机清理的时候把液金吹到显存里去了，导致独显报废，每次开机等几秒钟就会蓝屏。整个本子已经放弃治疗回收掉了。现在换了台式，以后就没法再做实机测试了。BIOS不会再做改动更新了（其实也没啥好改的了）感谢大家关注，祝使用愉快。
 
-其中评论区讨论到如果需要只能uefi启动,无法使用dos问题,应该切换至legacy boot,把uefi硬盘拔掉后就可以进入dos了
+
+# 其中评论区讨论到如果需要只能uefi启动,无法使用dos问题,应该切换至legacy boot,把uefi硬盘拔掉后就可以进入dos了
